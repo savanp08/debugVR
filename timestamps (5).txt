@@ -1,0 +1,12 @@
+15:27:45 - tracker - headset connected manually
+15:27:56 - tracker reconnected automatically 1st time
+15:28:04 - calibration started
+15:28:10 - tracker reconnected automatically 2nd time
+15:28:14 - calibration throws eye detection unsuccessful
+15:28:20 - tracker reconnected automatically 3rd time
+15:28:30 - tracker reconnected automatically 4th time
+
+
+Actual logcat timestamps : 06-17 20:27:19.458 manualy connected 
+06-17 20:27:20.119  1303  1485 I EventHub: Removing device HTC Eye Camera: HTC Eye Camera due to epoll hang-up event.
+06-17 20:28:02.969  2493  3320 I Unity   :   at EyeTrackerUIHandler.OnCalibrateButton () [0x00000] in <00000000000000000000000000000000>:0 
